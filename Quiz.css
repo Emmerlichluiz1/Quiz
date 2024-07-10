@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+    background-image:url(fundo\ background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #90694c;
+}
+.conteiner{
+    background-color: #464442fa;
+    max-width: 70%;
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #16161667;  
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    align-content: space-between;
+}
+.Fotos1, .Fotos2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Foto1 img{
+    max-width: 400px;
+}
+.Foto2 img{
+    max-width: 400px;
+}
+
+.Foto4 img{
+    max-width: 200px;
+}
+.Foto5 img{
+    max-width: 200px;
+}
+.perguntas{
+    display: flex;
+}
+.pergunta1, .pergunta2, .pergunta3{
+    background-color: #f8f8f8;
+    max-width: 20%;
+    padding: 1%;
+    border-radius: 15px;
+    align-items: left;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.respostas{
+    display: flex;
+}
+.resposta1, .resposta2, .resposta3{
+    background-color: #f8f8f8;
+    max-width: 20%;
+    padding: 2%;
+    border-radius: 15px;
+    align-items: left, flex-end;
+    margin: auto;
+    justify-content: end;
+}
+.pontuacao{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8f8f8;
+}
+input{
+    width: 20px;
+    border-radius: 2px;
+}
+button{
+    border-radius: 1px;
+    color: #90694c;
+}

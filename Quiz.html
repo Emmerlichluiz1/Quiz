@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>The Coolest Quizzz</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <div class="conteiner">
+   
+    <section class="Fotos1">
+    <div class="Foto1">  
+       <img src="imagem topo.png" alt="Quiz">
+    </div>
+    <div class="Foto2">
+       <img src="placa filme.png" alt="Filme">
+    </div>        
+    
+    </section>
+
+    <div class="perguntas">
+    <section class="pergunta1">
+     <h3>Primeira pergunta</h3>
+     <h4>Qual foi o primeiro filme da Marvel? </h4>
+    </section><br>
+
+    <section class="pergunta2">
+     <h3>Segunda pergunta</h3>
+     <h4>Qual foi o ano que lançaram o primeiro filme do jurassic park? </h4>  
+    </section><br>
+
+    <section class="pergunta3">
+       <h3>Terceira pergunta</h3>
+       <h4>Qual desse filmes não ganharam o oscar? </h4>  
+    </section><br>
+    </div>
+    
+    <div class="respostas">
+       <section class="resposta1">
+       <h3>Qual a sua resposta?</h3>
+      
+       <select name="resposta" id="selectMenu1">
+       <option value="0">Resposta</option>
+       <option value="1">O primeiro vingador</option>
+       <option value="0">O incrível hulk</option>
+       <option value="0">The batman</option>
+       </select><br><br></section>
+
+       <section class="resposta2">
+       <h3>Qual a sua resposta?</h3>
+      
+       <select name="resposta" id="selectMenu2">
+       <option value="0">Resposta</option>
+       <option value="0">1995</option>
+       <option value="0">1992</option>
+       <option value="1">1993</option>
+       </select><br><br></section>
+
+       <section class="resposta3">
+       <h3>Qual a sua resposta?</h3>
+      
+       <select name="resposta" id="selectMenu3">
+       <option value="0">Resposta</option>
+       <option value="1">Taxi driver</option>
+       <option value="0">The godfather</option>
+       <option value="0">O Parasita</option>
+       </select><br><br></section>
+    </div><br><hr>
+    
+    <div class="Fotos1">  
+    <div class="Foto4">
+       
+    </div><br></div>
+    
+    <div class="pontuacao">  
+       <h3>Sua pontuação foi</h3><br>
+       <input type="text" id="Resultado" readonly><br>
+       <button onclick="MostraValorSelect()">Finalizar Quiz!</button><br>  
+    </div>
+  
+    <div class="Fotos2">
+    <div class="Foto5">
+  
+    </div></div>
+
+   </div>
+   <script src="Quiz.js"></script>
+
+</body>
+</html>
